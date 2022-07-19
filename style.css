@@ -1,0 +1,247 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html, body { background: #333 url("https://www.stockvault.net/data/2013/05/06/144600/preview16.jpg"); }
+
+body
+{
+  height: 100vh;
+  /*  width: 200vh; */
+}
+
+
+  
+
+.carousel-inner{
+ 
+  background-position: center center;
+  
+}
+
+/*design footer*/
+.footer{
+    z-index: 1000;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+  }
+  .footerContainerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 40px; 
+    height: 100px;
+    /*width: 300px;   */
+    overflow: hidden;
+  /*   border: 1px solid #000; */
+    cursor:pointer;
+     float:left;
+     color:#fff;
+     
+  }
+  .leftCenter{
+    font-size: 30px;
+    font-weight: 20px;
+    margin-top: 35px;
+    transition: all .4s ease-in-out;
+    color:#fff;
+  }
+  
+  .leftCenter a{
+    margin:20px;
+  }
+  
+  .leftBottom{
+    opacity: 1;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: all .4s ease-in-out;
+  }
+  
+  .footerContainerLeft:hover .leftCenter {
+    margin-top: 20px;
+    margin-left:0px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .footerContainerLeft:hover .leftCenter a{
+    margin-left:0px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .footerContainerLeft:hover .leftCenter .fa-copyright{
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+  }
+  
+  .footerContainerLeft:hover .leftBottom{
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    transform: translateY(0);
+  }
+
+  
+/*designn social icons */ 
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper {
+padding-left: 75%;
+padding-top: 2%;
+}
+.container .h1{
+  font-weight: 200px;
+  font-family: 'Courier New', Courier, monospace;
+  color: ;
+}
+.container p{
+  font-size: larger;
+  font-weight: 100px;
+}
+ .text {
+  color: #fff;
+  padding-left: -50px;
+  text-align: left;
+  
+}
+.wrapper .button{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  
+}
+.wrapper .button:hover{
+  width: 150px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 40px;
+  box-sizing: border-box;
+  line-height: 40px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #1DB954;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 45px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  margin-left: 2px;
+  margin-right: 10px;
+  transition: all 0.3s ease-out;
+  margin-top: 10px;
+  margin-bottom: 50px;
+
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #1DB954;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+
+/*design newsletter */ 
+.container{
+  background: url() no-repeat center;
+  background-size: cover;
+  padding: 100px 40px;
+  text-align: center;
+  color: white;
+} 
+.container p {
+  max-width: 600px;
+  margin: 40px auto;
+  font-size: 15px;
+  font-weight: 300;
+}
+.email-box{
+  height: 40px;
+  justify-content: center;
+  display: flex; 
+}
+.email-box i{
+  background: #2f3542;
+  width: 40px;
+  line-height: 40px;
+}
+.tbox,.btn{
+  border: none;
+  outline: none;
+}
+.tbox{
+  width: 0px;
+  transition: 0.6s;
+}
+.email-box:hover > .tbox,.tbox:focus{
+  width: 260px;
+  padding: 2 20 px;
+}
+.container .btn{
+  background: #2f3542;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.col-md-4 {
+  
+  display: flex;
+  background: rgba(255,255,255, .1);
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
+  font-size:18px;
+  font-weight: bold;
+  
+  
+  margin: 20px 0;
+  transition: 0.5s;
+  font-weight: 50px; 
+}
+.col-md-4 .h1{
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
